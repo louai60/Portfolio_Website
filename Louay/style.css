@@ -16,7 +16,7 @@ body {
 /* All The Sections */
 section {
     position: relative;
-    padding: 110px 16% 90px;
+    padding: 40px 16% 90px;
     height: 100vh;
 }
 
@@ -136,8 +136,6 @@ span {
 .container {
     padding: 50px;
 }
-
-
 .home h1 {
     margin-top: 20px;
     font-size: 64px;
@@ -220,7 +218,7 @@ span {
     display: grid;
     align-items: center;
     gap: 1rem;
-    padding: 50px 100px 0 0;
+    padding: 10px 100px 0 0;
 }
 
 .about-img {
@@ -279,7 +277,6 @@ hr {
 
 .about-btn {
     display: inline-block;
-    margin-top: 0;
     padding: 11px 26px;
     background: #3a6cf4;
     color: #fff;
@@ -376,6 +373,7 @@ hr {
 /* Projects */
 .projects {
     background: #22282f;
+    height: fit-content;
 }
 
 .projects .center-text h2 {
