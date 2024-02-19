@@ -55,16 +55,18 @@ body {
 
 .card {
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
 }
 
 .row {
     background: #2d343f;
-    height: 50vh;
+    height: fit-content;
+    flex: 1 1 25%;
     border-radius: 28px;
     border: 1px solid transparent;
     box-shadow: 0 0 5px #3a6cf4;
-    padding: 20px;
+    padding: 10px;
     transition: all .50s ease;
 }
 
@@ -79,7 +81,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 8px;
 }
 
 .row h5 {
@@ -98,13 +99,6 @@ body {
     border-radius: 50%;
     color: #fff;
     background: #075fe4;
-}
-
-.row h4 {
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    line-height: 1.4;
 }
 
 .row:hover {

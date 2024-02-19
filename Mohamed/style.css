@@ -218,7 +218,7 @@ span {
     display: grid;
     align-items: center;
     gap: 1rem;
-    padding: 0px 100px 0 0;
+    padding: 10px 100px 0 0;
 }
 
 .about-img {
@@ -227,7 +227,7 @@ span {
 
 .about-img img {
     width: 100%;
-    height: 450px;
+    height: 430px;
     object-fit: cover;
 }
 
@@ -356,19 +356,19 @@ hr {
 }
 
 .js {
-    width: 77%;
+    width: 60%;
 }
 
 .python {
-    width: 90%;
+    width: 10%;
 }
 
 .mern {
-    width: 80%;
+    width: 15%;
 }
 
 .java {
-    width: 60%;
+    width: 10%;
 }
 /* Projects */
 .projects {
